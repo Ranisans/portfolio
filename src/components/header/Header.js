@@ -3,8 +3,6 @@ import React from 'react';
 import HeaderItem from './HeaderItem';
 import data from './headerData.json';
 
-import './styles.scss';
-
 const Header = () => (
   <header>
     <nav className='nav'>
