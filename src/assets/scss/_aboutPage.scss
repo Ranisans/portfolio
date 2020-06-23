@@ -1,0 +1,35 @@
+.page_about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  p {
+    margin: 0;
+  }
+}
+
+.about_container {
+  width: 400px; // set bigger size
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about_greeting {
+  color: #cacaca;
+  font-size: 1.8em;
+  line-height: 1.7em;
+  font-weight: 700;
+  letter-spacing: -1.5px;
+}
+
+.about_name {
+  color: #8c8484;
+}
+
+.about_representation {
+  color: #8a8a8a;
+  font-size: 1.05em;
+  line-height: 1.95em;
+  font-weight: 400;
+  font-family: Lato,Helvetica,Arial,sans-serif;
+}
