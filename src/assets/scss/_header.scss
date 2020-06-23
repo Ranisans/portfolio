@@ -83,7 +83,9 @@
 
 .header_button {
   position: absolute;
+}
 
+.header_button-active {
   &:hover {
     .first_line {
       transform: translate3d(0, -4px, 0 );
@@ -97,16 +99,22 @@
 .header_button_cross {
   .first_line {
     animation: firstLineAnimation 0.5s ease-in-out 0.1s;
-    transform: translate3d(0, 10px, 0) rotate(45deg) scale(1.5);
   }
   .second_line {
     animation: secondLineAnimation 0.5s ease-in-out 0.1s forwards;
   }
   .third_line {
     animation: thirdLineAnimation 0.5s ease-in-out 0.1s;
+  }
+}
+
+.header_button_cross-active {
+  .first_line {
+    transform: translate3d(0, 10px, 0) rotate(45deg) scale(1.5);
+  }
+  .third_line {
     transform: translate3d(0, -10px, 0) rotate(-45deg) scale(1.5);
   }
-
   &:hover {
     .first_line {
       transform: translate3d(0, 10px, 0) rotate(55deg) scale(1.5);
