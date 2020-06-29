@@ -29,6 +29,10 @@
       opacity: 1;
     }
 
+    .description {
+      opacity: 0;
+    }
+
     .project_tag {
       animation: tagAnimation 0.25s ease-in-out 0.4s forwards;
     }
@@ -68,6 +72,31 @@
 
   background-position: center center;
   background-size: cover;
+}
+
+.project_description_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+
+  .description {
+    font-size: 22px;
+
+    padding: 0 15%;
+
+    color: black;
+
+    transition: opacity 0.45s ease-in-out;
+    text-align: center;
+  }
 }
 
 .project_image {
@@ -134,13 +163,10 @@
   text-transform: uppercase;
 }
 
-.image_top {
-  z-index: 3;
-
-  opacity: 0;
-
-  transition: opacity 0.15s ease-out,transform 0.25s cubic-bezier(0,0.75,0,1);
-  transform: translate3d(0,-100%,0);;
+@media #{$information_mobile} {
+  .projects_item {
+    width: 100%;
+  }
 }
 
 @keyframes tagAnimation {
