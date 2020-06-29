@@ -19,7 +19,13 @@
   display: flex;
   flex-wrap: wrap;
 
+  max-width: 960px;
+  margin: 0 auto;
   padding: 0;
 
   list-style: none;
+
+  @media #{$information_mobile} {
+    max-width: 100%;
+  }
 }
