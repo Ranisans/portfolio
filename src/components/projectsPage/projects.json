@@ -1,0 +1,17 @@
+{
+  "projects": [
+    {
+      "image": "piskel_clone.jpeg",
+      "description": "Simple clone of piskelapp.com - free online editor for animated sprites & pixel art",
+      "technologies": [
+        "html5",
+        "scss",
+        "react",
+        "redux",
+        "canvas"
+      ],
+      "projectName": "Simple Piskel Clone",
+      "link": "https://ranisans.github.io/simple-piskel-clone/"
+    }
+  ]
+}

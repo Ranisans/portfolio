@@ -1,0 +1,25 @@
+.projects_title {
+  margin: 0;
+  margin-bottom: 0.1em;
+  padding: 55px 0;
+
+  font-size: 2.625rem;
+  font-weight: 700;
+  line-height: 1.45rem;
+
+  color: #cacaca;
+  text-shadow: 2px 2px 0 rgba(0,0,0,0.15);
+
+  text-align: center;
+  letter-spacing: -1px;
+  text-transform: lowercase;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 0;
+
+  list-style: none;
+}
