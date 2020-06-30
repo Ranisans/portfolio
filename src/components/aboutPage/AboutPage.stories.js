@@ -7,4 +7,4 @@ export default {
   component: AboutPage,
 };
 
-export const Base = () => <div style={{ height: 500 }}><AboutPage /></div>;
+export const Base = () => <div style={{ height: '100vh' }}><AboutPage /></div>;

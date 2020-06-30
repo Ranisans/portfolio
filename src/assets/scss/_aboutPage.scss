@@ -1,4 +1,6 @@
 .page_about {
+  position: relative;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,4 +45,60 @@
   line-height: 1.95em;
 
   color: #8a8a8a;
+}
+
+.about_footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.social_network {
+  margin-right: 15px;
+
+  font-size: 1.2em;
+  font-weight: 700;
+
+  text-decoration: none;
+}
+
+.social_network_button {
+  height: 1.8em;
+
+  color: #ccc;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: #474747;
+  box-shadow: 2px 2px #353535, 3px 3px #212121;
+
+  transition: background 0.5s ease-in-out;
+  text-transform: uppercase;
+
+  &:active {
+    box-shadow: 1px 1px rgb(33, 33, 33);
+
+    transform: translateY(2px);
+  }
+
+  &:hover {
+    background-color: #5e5e5e;
+  }
+}
+
+.social_network_icon {
+  margin-right: 10px;
+}
+
+.svg_icon {
+  width: 1.2em;
+  height: 1.2em;
+
+  vertical-align: bottom;
 }
