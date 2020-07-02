@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import Header from './Header';
 
@@ -7,4 +8,4 @@ export default {
   component: Header,
 };
 
-export const Base = () => <Header />;
+export const Base = () => <Router><Header /></Router>;

@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const HeaderItem = ({ link, name }) => (
-  <a className='nav_link' key={link} href={`/${link}`}>
+  <Link className='nav_link' to={link}>
     <span className='nav_link_text' >{name}</span>
-  </a>
+  </Link>
 );
 
 export default HeaderItem;

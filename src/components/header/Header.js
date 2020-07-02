@@ -1,14 +1,12 @@
 import React from 'react';
 
 import HeaderItem from './HeaderItem';
-import data from './headerData.json';
 
 const Header = () => (
-  <header>
-    <nav className='nav'>
-      {data.header_item.map((item) => HeaderItem(item))}
-    </nav>
-  </header>
+  <nav className='nav'>
+    <HeaderItem name="About" link="/about" />
+    <HeaderItem name="Portfolio" link="/portfolio" />
+  </nav>
 );
 
 export default Header;
