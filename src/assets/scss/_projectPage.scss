@@ -29,3 +29,23 @@
     max-width: 100%;
   }
 }
+
+.projects_page {
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+
+.projects_page::-webkit-scrollbar {
+  width: 6px;
+}
+.projects_page {
+  scrollbar-width: thin;
+  scrollbar-color: $scrollColorBG $scrollColor;
+}
+.projects_page::-webkit-scrollbar-track {
+  background: $scrollColorBG;
+}
+.projects_page::-webkit-scrollbar-thumb {
+  background-color: $scrollColor ;
+}
