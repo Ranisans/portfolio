@@ -9,6 +9,7 @@
         "redux",
         "canvas"
       ],
+      "label": {"text": "desktop", "color": "rgb(159, 80, 169)"},
       "projectName": "Simple Piskel Clone",
       "link": "https://ranisans.github.io/simple-piskel-clone/"
     }, {
