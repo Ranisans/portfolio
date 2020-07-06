@@ -2,7 +2,6 @@
   "projects": [
     {
       "image": "piskel_clone.jpeg",
-      "description": "Simple clone of piskelapp.com - free online editor for animated sprites & pixel art",
       "technologies": [
         "html5",
         "scss",
@@ -12,6 +11,50 @@
       ],
       "projectName": "Simple Piskel Clone",
       "link": "https://ranisans.github.io/simple-piskel-clone/"
+    }, {
+      "image": "repair_design.jpeg",
+      "technologies": [
+        "html5",
+        "scss",
+        "figma",
+        "grid",
+        "flex",
+        "webpack"
+      ],
+      "projectName": "Repair Design Project",
+      "link": "https://ranisans.github.io/repair-design-project/"
+    }, {
+      "image": "belarus_writers.jpeg",
+      "technologies": [
+        "typescript",
+        "react",
+        "gatsby",
+        "material-ui",
+        "storybook"
+      ],
+      "projectName": "Writers of Belarus",
+      "link": "https://belarusian-writers.netlify.app/en/"
+    }, {
+      "image": "fancy_weather.jpeg",
+      "technologies": [
+        "html5",
+        "javascript",
+        "scss",
+        "webpack"
+      ],
+      "label": {"text": "chrome", "color": "rgb(80, 120, 169)"},
+      "projectName": "Fancy Weather App",
+      "link": "https://ranisans.github.io/fancy-weather/"
+    }, {
+      "image": "loan_lease_calculator.jpeg",
+      "technologies": [
+        "react",
+        "emotion",
+        "react-redux"
+      ],
+      "label": {"text": "desktop", "color": "rgb(159, 80, 169)"},
+      "projectName": "Loan/Lease Calculator",
+      "link": "https://ranisans.github.io/calculator/"
     }
   ]
 }

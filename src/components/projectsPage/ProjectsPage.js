@@ -10,7 +10,6 @@ const ProjectPage = () => (
       {projects.map((project) => <ProjectCard
         image={project.image}
         label={project.label}
-        description={project.description}
         technologies={project.technologies}
         projectName={project.projectName}
         link={project.link}

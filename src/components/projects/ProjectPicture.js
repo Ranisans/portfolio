@@ -6,7 +6,7 @@ const ProjectPicture = ({ className, pictureUrl }) => {
   return (
     <picture className={className}>
       <source srcSet={pictureSrc} type="image/jpeg" />
-      <img src={pictureSrc} />
+      <img src={pictureSrc} alt="Project Image"/>
     </picture>
   );
 };
