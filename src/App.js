@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
+import { Switch, Route, HashRouter as Router } from 'react-router-dom';
 
 import HeaderAssembly from './components/header/HeaderAssembly';
 import AboutPage from './components/aboutPage/AboutPage';
