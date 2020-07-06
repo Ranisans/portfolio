@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.c2c1efa8.chunk.css",
-    "main.js": "/static/js/main.762dcdf4.chunk.js",
-    "main.js.map": "/static/js/main.762dcdf4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c2b20a0b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c2b20a0b.js.map",
-    "static/js/2.24faa79d.chunk.js": "/static/js/2.24faa79d.chunk.js",
-    "static/js/2.24faa79d.chunk.js.map": "/static/js/2.24faa79d.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.6d58b91ccc3ae7b623d85b84ee03e842.js": "/precache-manifest.6d58b91ccc3ae7b623d85b84ee03e842.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.c2c1efa8.chunk.css.map": "/static/css/main.c2c1efa8.chunk.css.map",
-    "static/js/2.24faa79d.chunk.js.LICENSE.txt": "/static/js/2.24faa79d.chunk.js.LICENSE.txt",
-    "static/media/belarus_writers.jpeg": "/static/media/belarus_writers.5ab286e4.jpeg",
-    "static/media/fancy_weather.jpeg": "/static/media/fancy_weather.70c9aa9e.jpeg",
-    "static/media/loan_lease_calculator.jpeg": "/static/media/loan_lease_calculator.d90d7ff2.jpeg",
-    "static/media/piskel_clone.jpeg": "/static/media/piskel_clone.9d22f975.jpeg",
-    "static/media/repair_design.jpeg": "/static/media/repair_design.47808fad.jpeg"
+    "main.css": "./static/css/main.9c8ea6af.chunk.css",
+    "main.js": "./static/js/main.8e7e0288.chunk.js",
+    "main.js.map": "./static/js/main.8e7e0288.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.916853f0.js",
+    "runtime-main.js.map": "./static/js/runtime-main.916853f0.js.map",
+    "static/js/2.8fe3343b.chunk.js": "./static/js/2.8fe3343b.chunk.js",
+    "static/js/2.8fe3343b.chunk.js.map": "./static/js/2.8fe3343b.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.aec6c4e91bb782c138c8821e73e058a9.js": "./precache-manifest.aec6c4e91bb782c138c8821e73e058a9.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.9c8ea6af.chunk.css.map": "./static/css/main.9c8ea6af.chunk.css.map",
+    "static/js/2.8fe3343b.chunk.js.LICENSE.txt": "./static/js/2.8fe3343b.chunk.js.LICENSE.txt",
+    "static/media/belarus_writers.jpeg": "./static/media/belarus_writers.5ab286e4.jpeg",
+    "static/media/fancy_weather.jpeg": "./static/media/fancy_weather.70c9aa9e.jpeg",
+    "static/media/loan_lease_calculator.jpeg": "./static/media/loan_lease_calculator.d90d7ff2.jpeg",
+    "static/media/piskel_clone.jpeg": "./static/media/piskel_clone.9d22f975.jpeg",
+    "static/media/repair_design.jpeg": "./static/media/repair_design.47808fad.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c2b20a0b.js",
-    "static/js/2.24faa79d.chunk.js",
-    "static/css/main.c2c1efa8.chunk.css",
-    "static/js/main.762dcdf4.chunk.js"
+    "static/js/runtime-main.916853f0.js",
+    "static/js/2.8fe3343b.chunk.js",
+    "static/css/main.9c8ea6af.chunk.css",
+    "static/js/main.8e7e0288.chunk.js"
   ]
 }
